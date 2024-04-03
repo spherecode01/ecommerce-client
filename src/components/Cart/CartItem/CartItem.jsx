@@ -1,6 +1,6 @@
 import "./CartItem.scss";
 import { MdClose } from "react-icons/md";
-import prod from "../../../assets/products/earbuds-prod-1.webp"
+//import prod from "../../../assets/products/earbuds-prod-1.webp"
 import { useContext } from "react";
 import { Context } from "../../../utils/context";
 
@@ -9,7 +9,7 @@ const CartItem = () => {
     const { cartItems, handleRemoveFromCart, handleCartProductQuantity } =
     useContext(Context)
 
-    const cloudinaryBaseUrl = "https://res.cloudinary.com/dkb3a5r0m/image/upload/";
+    //const cloudinaryBaseUrl = "https://res.cloudinary.com/dkb3a5r0m/image/upload/";
     return (
         <div className="cart-products">
             {cartItems.map((item) => (

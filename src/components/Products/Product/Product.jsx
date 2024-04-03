@@ -24,7 +24,7 @@ import "./Product.scss";
 const Product = ({ id, data }) => {
   const navigate = useNavigate();
 
-  const cloudinaryBaseUrl = "https://res.cloudinary.com/dkb3a5r0m/image/upload/";
+  //const cloudinaryBaseUrl = "https://res.cloudinary.com/dkb3a5r0m/image/upload/";
 
   return (
     <div className="product-card" onClick={() => navigate("/product/" + id)}>

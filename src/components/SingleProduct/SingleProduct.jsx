@@ -7,7 +7,7 @@ import {
     FaPinterest,
     FaCartPlus,
 } from "react-icons/fa";
-import prod from "../../assets/products/earbuds-prod-1.webp"
+//import prod from "../../assets/products/earbuds-prod-1.webp"
 import RelatedProducts from './RelatedProducts/RelatedProducts';
 import useFetch from './../hooks/useFetch';
 import { useParams } from "react-router-dom/dist";
@@ -104,7 +104,7 @@ const SingleProduct = () => {
 
   if (!data) return null;
   const product = data.data[0].attributes;
-  const cloudinaryBaseUrl = "https://res.cloudinary.com/dkb3a5r0m/image/upload/";
+  //const cloudinaryBaseUrl = "https://res.cloudinary.com/dkb3a5r0m/image/upload/";
 
   return (
     <div className="single-product-main-content">

@@ -70,7 +70,7 @@ const Search = ({ setShowSearch }) => {
     data = null;
   }
 
-  const cloudinaryBaseUrl = "https://res.cloudinary.com/dkb3a5r0m/image/upload/";
+  //const cloudinaryBaseUrl = "https://res.cloudinary.com/dkb3a5r0m/image/upload/";
 
   return (
     <div className="search-modal">

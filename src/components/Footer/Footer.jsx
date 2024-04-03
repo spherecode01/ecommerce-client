@@ -57,7 +57,7 @@ const Footer = () => {
                     JSDEVSTORE 2022 CREATED BY JS DEV. PREMIUM E-COMMERCE
                     SOLUTIONS.
                 </span>
-                <img src={Payment} />
+                <img alt="images" src={Payment} />
             </div>
         </div>
     </div>

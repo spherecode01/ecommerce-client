@@ -20,7 +20,7 @@ import { useNavigate } from "react-router-dom/dist";
 
 const Category = ({ categories }) => {
   const navigate = useNavigate();
-  const cloudinaryBaseUrl = "https://res.cloudinary.com/dkb3a5r0m/image/upload/";
+  //const cloudinaryBaseUrl = "https://res.cloudinary.com/dkb3a5r0m/image/upload/";
 
   return (
     <div className="shop-by-category">
